@@ -64,7 +64,7 @@ predicted_age_ENM[predicted_age_ENM < 0] <- 0
 #sample IDと推定年齢をR上で示す
 data.frame(Sample_ID = MDS$Sample_ID, Predicted_Age = predicted_age_ENM)
 
-＃●Support vector regression (SLC12A5-1, -3, -4)
+#●Support vector regression (SLC12A5-1, -3, -4)
 library(e1071)
 SVRM<-
   svm(age~SLC12A5_1_methylation_rate_ave+SLC12A5_3_methylation_rate_ave+SLC12A5_4_methylation_rate_ave,data=IBBS, cost=10^3.7, gamma=10^-1.9, epsilon=0.1, scale = FALSE)
