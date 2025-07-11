@@ -1,4 +1,4 @@
-#●Asian bear-specific model 250418
+#●Asian bear-specific models 250418
 
 #最初に以下のようにデータの読み込み・出力を行うPC上のフォルダを指定してください
 #ディレクトリを指定
